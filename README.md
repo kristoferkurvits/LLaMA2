@@ -7,12 +7,13 @@ Start by downloading "llama-2-7b-chat.Q2_K.gguf" from [HuggingFace](https://hugg
 
 Then run
 ```
-    pip install -r requirements.txt
-    docker build -t llama2 .
-    docker run -p 127.0.0.1:5000:5000 llama2
+pip install -r requirements.txt
+docker build -t llama2 .
+docker run -p 127.0.0.1:5000:5000 llama2
 ```
 
 API available on http://127.0.0.1:5000/llama
+<br>
 [POST] example request body
  ```
  {
