@@ -1,0 +1,2 @@
+llama-cpp-python==v0.2.14
+Flask
